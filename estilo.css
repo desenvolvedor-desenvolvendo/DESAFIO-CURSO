@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+IT+Moderna:wght@100..400&family=Sigmar&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Fleur+De+Leah&family=Ga+Maamli&family=Geist+Mono:wght@100..900&family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Monomakh&family=Oswald:wght@200..700&family=PT+Serif+Caption:ital@0;1&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+
+
+/*corpo pai acima */
+.menu {
+  background-color: black;
+  margin: -22px -10px -0px -10px;
+  color: aliceblue;
+  text-align: center;
+  letter-spacing: 4px;
+}
+.menu > h1 {
+  margin-top: 5px;
+  padding-top: 65px;
+  margin-bottom: 2px;
+  font-family: "Sigmar";
+  font-size: 55px;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.menu > p:hover {
+  transition-duration: 0.6s;
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
+/*menu acima*/
+
+.p1 {
+  background-color: white;
+  margin: -10px;
+  height: 600px;
+}
+.p1 > p {
+  font-family: "Gentium Plus";
+  font-size: 5vh;
+  width: 45vh;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+/*1 acima */
+.p2 {
+    background-image: url(fundo.jpg);
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:-50px -10px -34px -10px;
+    
+   
+}
+.p2 > p {
+    background-color: rgba(116, 116, 116, 0.247);
+    font-family: "Gentium Plus";
+    font-size: 5vh;
+    width: 45vh;
+    padding-left: 20px;
+  padding-top: 30px;
+  }
+
+  /*2 acima */
+
+.p3 {
+    background-color: white;
+    height: 1100px;
+    margin: 10px -10px -10px -10px;
+}
+.p3 > p{
+  font-family: "Gentium Plus";
+  font-size: 5vh;
+  width: 45vh;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+
+
+
+
+  /*3 acima*/
+
+
+.p4 {
+  height: 600px;
+  background-image: url(wallpaper002.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:-50px -10px -34px -10px;
+}
+.p4 > p{
+  background-color: rgba(116, 116, 116, 0.247);
+  font-family: "Gentium Plus";
+  font-size: 5vh;
+  width: 45vh;
+  padding-left: 20px;
+padding-top: 30px;
+}
+/*4 acima */
+.p5 {
+  background-color: white;
+  margin: -10px;
+  height: 1100px;
+}
+.p5 > p{
+  font-family: "Gentium Plus";
+  font-size: 5vh;
+  width: 45vh;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+/*5 acima */
+.link{
+  height: 50px;
+  color: aliceblue;
+  text-align: center;
+  font-family: "Gentium Plus";
+  font-size: 23px;
+  
+}
+.link > p:hover{
+  
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
