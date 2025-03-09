@@ -74,7 +74,8 @@ a {
 .p3 {
     background-color: white;
     height: 1100px;
-    margin: 10px -10px -10px -10px;
+   margin-left: -10px;
+   margin-right: -10px;
 }
 .p3 > p{
   font-family: "Gentium Plus";
@@ -82,6 +83,7 @@ a {
   width: 45vh;
   padding-left: 20px;
   padding-top: 30px;
+
 }
 
 
@@ -98,7 +100,7 @@ a {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  margin:-50px -10px -34px -10px;
+  margin:-50px -10px -40px -10px;
 }
 .p4 > p{
   background-color: rgba(116, 116, 116, 0.247);
@@ -112,7 +114,7 @@ padding-top: 30px;
 .p5 {
   background-color: white;
   margin: -10px;
-  height: 1100px;
+  height: 1200px;
 }
 .p5 > p{
   font-family: "Gentium Plus";
