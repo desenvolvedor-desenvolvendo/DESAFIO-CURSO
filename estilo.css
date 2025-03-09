@@ -56,7 +56,7 @@ a {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    margin:-50px -10px -40px -10px;
+    margin:-50px -10px -34px -10px;
     
    
 }
@@ -64,7 +64,7 @@ a {
     background-color: rgba(116, 116, 116, 0.247);
     font-family: "Gentium Plus";
     font-size: 5vh;
-
+    width: 45vh;
     padding-left: 20px;
   padding-top: 30px;
   }
@@ -74,8 +74,7 @@ a {
 .p3 {
     background-color: white;
     height: 1100px;
-   margin-left: -10px;
-   margin-right: -10px;
+    margin: 10px -10px -10px -10px;
 }
 .p3 > p{
   font-family: "Gentium Plus";
@@ -83,7 +82,6 @@ a {
   width: 45vh;
   padding-left: 20px;
   padding-top: 30px;
-
 }
 
 
@@ -100,13 +98,13 @@ a {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  margin:-50px -10px -40px -10px;
+  margin:-50px -10px -34px -10px;
 }
 .p4 > p{
   background-color: rgba(116, 116, 116, 0.247);
   font-family: "Gentium Plus";
   font-size: 5vh;
-  width: 45vh;
+  width: 55vh;
   padding-left: 20px;
 padding-top: 30px;
 }
@@ -114,7 +112,7 @@ padding-top: 30px;
 .p5 {
   background-color: white;
   margin: -10px;
-  height: 1200px;
+  height: 1100px;
 }
 .p5 > p{
   font-family: "Gentium Plus";
@@ -130,7 +128,7 @@ padding-top: 30px;
   text-align: center;
   font-family: "Gentium Plus";
   font-size: 23px;
-  
+  transition-duration: .;
 }
 .link > p:hover{
   
