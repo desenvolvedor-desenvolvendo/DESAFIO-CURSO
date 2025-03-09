@@ -4,10 +4,8 @@
 
 body {
   background-color: rgb(0, 0, 0);
-  min-width:100% ;
+  min-width: 100%;
 }
-
-
 
 /*corpo pai acima */
 .menu {
@@ -35,14 +33,13 @@ a {
 }
 
 /*menu acima*/
-div{
-  padding-top: 10vh ;
+div {
+  padding-top: 10vh;
   padding-bottom: 15vh;
 }
 .p1 {
   background-color: white;
   margin: -10px;
-
 }
 .p1 > p {
   font-family: "Gentium Plus";
@@ -54,92 +51,78 @@ div{
 
 /*1 acima */
 .p2 {
-    background-image: url(fundo.jpg);
-   
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin:-50px -10px -50px -10px;
-    
-   
-}
-.p2 > p {
-    background-color: rgba(116, 116, 116, 0.247);
-    font-family: "Gentium Plus";
-    font-size: 5vh;
-    
-    padding-left: 20px;
-  padding-top: 30px;
-  }
+  background-image: url(fundo.jpg);
 
-  /*2 acima */
-
-.p3 {
-    background-color: white;
-   
-    margin: 10px -10px -10px -10px;
-}
-.p3 > p{
-  font-family: "Gentium Plus";
-  font-size: 5vh;
-  
-  padding-left: 20px;
-  padding-top: 30px;
-}
-
-
-
-
-
-  /*3 acima*/
-
-
-.p4 {
- 
- background-image: url(wallpaper002.jpg);
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  margin:-50px -10px -34px -10px;
+  margin: -50px -10px -10px -10px;
 }
-.p4 > p{
+.p2 > p {
   background-color: rgba(116, 116, 116, 0.247);
   font-family: "Gentium Plus";
   font-size: 5vh;
-  
+
+  padding-left: 30px;
+}
+
+/*2 acima */
+
+.p3 {
+  background-color: white;
+
+  margin: 10px -10px -10px -10px;
+}
+.p3 > p {
+  font-family: "Gentium Plus";
+  font-size: 5vh;
+
   padding-left: 20px;
-padding-top: 30px;
+}
+
+/*3 acima*/
+
+.p4 {
+  background-image: url(wallpaper002.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -50px -10px -34px -10px;
+}
+.p4 > p {
+  background-color: rgba(116, 116, 116, 0.247);
+  font-family: "Gentium Plus";
+  font-size: 5vh;
+
+  padding-left: 20px;
 }
 /*4 acima */
 .p5 {
   background-color: white;
   margin: -10px;
-
 }
-.p5 > p{
+.p5 > p {
   font-family: "Gentium Plus";
   font-size: 5vh;
- 
+
   padding-left: 20px;
-  padding-top: 30px;
 }
 /*5 acima */
-.link{
- padding-top: 1vh ;
- padding-bottom: 1vh;
+.link {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
   color: aliceblue;
   text-align: center;
   font-family: "Gentium Plus";
   font-size: 23px;
   transition-duration: .;
 }
-.link > p:hover{
-  
+.link > p:hover {
   text-decoration: underline;
   color: rgb(0, 0, 0);
 }
-a:hover{
+a:hover {
   text-decoration: underline;
 }
