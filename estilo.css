@@ -16,20 +16,25 @@ body {
   letter-spacing: 4px;
 }
 .menu > h1 {
-  margin-top: 5px;
-  padding-top: 65px;
+  margin-top: -30px;
+  padding-top: 15px;
   margin-bottom: 2px;
   font-family: "Sigmar";
-  font-size: 55px;
+  font-size: 7vw;
 }
 a {
   text-decoration: none;
   color: aliceblue;
 }
+.menu > p {
+  transition: transform 0.6s ease, text-shadow 0.6s ease; 
+  font-size: 2vw;
+}
 .menu > p:hover {
-  transition-duration: 0.6s;
+  transition-duration: 0.6s ;
   transform: scale(1.1);
-  text-decoration: underline;
+  text-shadow: 0px 0px 7px rgba(255, 255, 255, 0.815);
+  
 }
 
 /*menu acima*/
@@ -37,19 +42,26 @@ div {
   padding-top: 10vh;
   padding-bottom: 15vh;
 }
-.p1 {
-  background-color: white;
-  margin: -10px;
-}
-.p1 > p {
-  font-family: "Gentium Plus";
-  font-size: 5vh;
-
+div > p{
+  font-family: "Gentium Plus" ;
+  font-size: 3.5vw;
+    
+  padding-right: 20px;
   padding-left: 20px;
-  padding-top: 30px;
+  color: rgb(0, 0, 0);
+
 }
+/*todas div */
+
+.p1 {
+  background-image: linear-gradient( to bottom, rgb(37, 1, 46), rgb(83, 0, 83),purple);
+  margin: -10px;
+
+}
+
 
 /*1 acima */
+
 .p2 {
   background-image: url(fundo.jpg);
 
@@ -60,31 +72,24 @@ div {
   margin: -50px -10px -10px -10px;
 }
 .p2 > p {
-  background-color: rgba(116, 116, 116, 0.247);
-  font-family: "Gentium Plus";
-  font-size: 5vh;
-
-  padding-left: 30px;
+  background-color: rgba(180, 67, 214, 0.247);
+  
 }
 
 /*2 acima */
 
 .p3 {
-  background-color: white;
 
+  background-image: linear-gradient( to bottom, purple, rgb(159, 93, 240));
   margin: 10px -10px -10px -10px;
 }
-.p3 > p {
-  font-family: "Gentium Plus";
-  font-size: 5vh;
 
-  padding-left: 20px;
-}
+
 
 /*3 acima*/
 
 .p4 {
-  background-image: url(wallpaper002.jpg);
+  background-image: url(purple-tree-in-dark-forest-t49n3kbi9dbx3rch.jpg);
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -93,23 +98,19 @@ div {
 }
 .p4 > p {
   background-color: rgba(116, 116, 116, 0.247);
-  font-family: "Gentium Plus";
-  font-size: 5vh;
+ 
+} 
 
-  padding-left: 20px;
-}
 /*4 acima */
+
 .p5 {
-  background-color: white;
+  background-color: rgb(159, 93, 240);
   margin: -10px;
 }
-.p5 > p {
-  font-family: "Gentium Plus";
-  font-size: 5vh;
 
-  padding-left: 20px;
-}
+
 /*5 acima */
+
 .link {
   padding-top: 1vh;
   padding-bottom: 1vh;
@@ -117,12 +118,12 @@ div {
   text-align: center;
   font-family: "Gentium Plus";
   font-size: 23px;
-  transition-duration: .;
+  
 }
 .link > p:hover {
   text-decoration: underline;
   color: rgb(0, 0, 0);
 }
-a:hover {
+.link a:hover {
   text-decoration: underline;
 }
