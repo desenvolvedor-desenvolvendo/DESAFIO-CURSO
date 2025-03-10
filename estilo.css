@@ -27,14 +27,13 @@ a {
   color: aliceblue;
 }
 .menu > p {
-  transition: transform 0.6s ease, text-shadow 0.6s ease; 
+  transition: transform 0.6s ease, text-shadow 0.6s ease;
   font-size: 2vw;
 }
 .menu > p:hover {
-  transition-duration: 0.6s ;
+  transition-duration: 0.6s;
   transform: scale(1.1);
   text-shadow: 0px 0px 7px rgba(255, 255, 255, 0.815);
-  
 }
 
 /*menu acima*/
@@ -42,49 +41,50 @@ div {
   padding-top: 10vh;
   padding-bottom: 15vh;
 }
-div > p{
-  font-family: "Gentium Plus" ;
+div > p {
+  font-family: "Gentium Plus";
   font-size: 3.5vw;
-    
+
   padding-right: 20px;
   padding-left: 20px;
   color: rgb(0, 0, 0);
-
 }
 /*todas div */
 
 .p1 {
-  background-image: linear-gradient( to bottom, rgb(37, 1, 46), rgb(83, 0, 83),purple);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(37, 1, 46),
+    rgb(83, 0, 83),
+    purple
+  );
   margin: -10px;
-
+ 
 }
-
 
 /*1 acima */
 
 .p2 {
   background-image: url(fundo.jpg);
-
+  
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   margin: -50px -10px -10px -10px;
+  box-shadow: inset 0px 4px 15px black;
+
 }
 .p2 > p {
   background-color: rgba(180, 67, 214, 0.247);
-  
 }
 
-/*2 acima */
+/*2 acima com imagem */
 
 .p3 {
-
-  background-image: linear-gradient( to bottom, purple, rgb(159, 93, 240));
+  background-image: linear-gradient(to bottom, purple, rgb(159, 93, 240));
   margin: 10px -10px -10px -10px;
 }
-
-
 
 /*3 acima*/
 
@@ -95,19 +95,18 @@ div > p{
   background-repeat: no-repeat;
   background-size: cover;
   margin: -50px -10px -34px -10px;
+  box-shadow: inset 0px 4px 15px black;
 }
 .p4 > p {
   background-color: rgba(116, 116, 116, 0.247);
- 
-} 
+}
 
-/*4 acima */
+/*4 acima com imagem*/
 
 .p5 {
   background-color: rgb(159, 93, 240);
   margin: -10px;
 }
-
 
 /*5 acima */
 
@@ -118,7 +117,6 @@ div > p{
   text-align: center;
   font-family: "Gentium Plus";
   font-size: 23px;
-  
 }
 .link > p:hover {
   text-decoration: underline;
@@ -127,3 +125,5 @@ div > p{
 .link a:hover {
   text-decoration: underline;
 }
+
+/* link dos creditos */
